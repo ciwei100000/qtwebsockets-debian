@@ -1,3 +1,10 @@
+qtwebsockets-opensource-src (5.12.2-1) UNRELEASED; urgency=medium
+
+  [ Dmitry Shachnev ]
+  * New upstream release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 17 Mar 2019 22:53:20 +0300
+
 qtwebsockets-opensource-src (5.11.3-5) unstable; urgency=medium
 
   * Ignore test failure in mips64el to allow the Qt transition to continue.
