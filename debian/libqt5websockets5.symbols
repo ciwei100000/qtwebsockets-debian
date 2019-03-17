@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.12.2 amd64
+# SymbolsHelper-Confirmed: 5.12.2 amd64 armhf i386
 libQt5WebSockets.so.5 libqt5websockets5 #MINVER#
  Qt_5.0@Qt_5.0 5.6.0
  Qt_5.10@Qt_5.10 5.10.1
@@ -71,7 +71,7 @@ libQt5WebSockets.so.5 libqt5websockets5 #MINVER#
  _ZN16QWebSocketServer15peerVerifyErrorERK9QSslError@Qt_5 5.6.0
  _ZN16QWebSocketServer15resumeAcceptingEv@Qt_5 5.6.0
  _ZN16QWebSocketServer16staticMetaObjectE@Qt_5 5.6.0
- _ZN16QWebSocketServer19setNativeDescriptorEx@Qt_5 5.12.2
+ (subst)_ZN16QWebSocketServer19setNativeDescriptorE{qptrdiff}@Qt_5 5.12.2
  _ZN16QWebSocketServer19setSocketDescriptorEi@Qt_5 5.6.0
  _ZN16QWebSocketServer19setSslConfigurationERK17QSslConfiguration@Qt_5 5.6.0
  _ZN16QWebSocketServer21nextPendingConnectionEv@Qt_5 5.6.0
