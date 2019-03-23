@@ -1,12 +1,11 @@
-qtwebsockets-opensource-src (5.12.2-1) UNRELEASED; urgency=medium
+qtwebsockets-opensource-src (5.12.2-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Bump Qt build-dependencies to 5.12.2.
   * Update debian/libqt5websockets5.symbols from the current build log.
   * Drop skip_test_failing_on_chroots.patch, the issue was fixed upstream.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 17 Mar 2019 22:53:20 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 23 Mar 2019 14:39:31 +0300
 
 qtwebsockets-opensource-src (5.11.3-5) unstable; urgency=medium
 
