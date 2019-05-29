@@ -7,6 +7,7 @@ qtwebsockets-opensource-src (5.12.3-2) UNRELEASED; urgency=medium
   * Set the TESTRUNNER environment variable when running the tests, instead
     of calling xvfb-run directly. This fixes build with nocheck profile
     (closes: #929442). Thanks to Sven Mueller for the initial patch!
+  * Add a proper debian/clean file.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 29 May 2019 18:30:02 +0300
 
