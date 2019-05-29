@@ -3,6 +3,11 @@ qtwebsockets-opensource-src (5.12.3-2) UNRELEASED; urgency=medium
   [ Scarlett Moore ]
   * Improve abstract for doc-base.
 
+  [ Dmitry Shachnev ]
+  * Set the TESTRUNNER environment variable when running the tests, instead
+    of calling xvfb-run directly. This fixes build with nocheck profile
+    (closes: #929442). Thanks to Sven Mueller for the initial patch!
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 29 May 2019 18:30:02 +0300
 
 qtwebsockets-opensource-src (5.12.3-1) experimental; urgency=medium
