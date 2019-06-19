@@ -1,9 +1,10 @@
-qtwebsockets-opensource-src (5.12.3-2) UNRELEASED; urgency=medium
+qtwebsockets-opensource-src (5.12.4-1) UNRELEASED; urgency=medium
 
   [ Scarlett Moore ]
   * Improve abstract for doc-base.
 
   [ Dmitry Shachnev ]
+  * New upstream release.
   * Set the TESTRUNNER environment variable when running the tests, instead
     of calling xvfb-run directly. This fixes build with nocheck profile
     (closes: #929442). Thanks to Sven Mueller for the initial patch!
