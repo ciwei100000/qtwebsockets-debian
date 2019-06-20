@@ -1,4 +1,4 @@
-qtwebsockets-opensource-src (5.12.4-1) UNRELEASED; urgency=medium
+qtwebsockets-opensource-src (5.12.4-1) experimental; urgency=medium
 
   [ Scarlett Moore ]
   * Improve abstract for doc-base.
@@ -12,7 +12,7 @@ qtwebsockets-opensource-src (5.12.4-1) UNRELEASED; urgency=medium
   * Add Build-Depends-Package field to debian/libqt5websockets5.symbols.
   * Bump Qt build-dependencies to 5.12.4.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 29 May 2019 18:30:02 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Thu, 20 Jun 2019 10:54:39 +0300
 
 qtwebsockets-opensource-src (5.12.3-1) experimental; urgency=medium
 
