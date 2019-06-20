@@ -10,6 +10,7 @@ qtwebsockets-opensource-src (5.12.4-1) UNRELEASED; urgency=medium
     (closes: #929442). Thanks to Sven Mueller for the initial patch!
   * Add a proper debian/clean file.
   * Add Build-Depends-Package field to debian/libqt5websockets5.symbols.
+  * Bump Qt build-dependencies to 5.12.4.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 29 May 2019 18:30:02 +0300
 
