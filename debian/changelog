@@ -9,6 +9,7 @@ qtwebsockets-opensource-src (5.12.4-1) UNRELEASED; urgency=medium
     of calling xvfb-run directly. This fixes build with nocheck profile
     (closes: #929442). Thanks to Sven Mueller for the initial patch!
   * Add a proper debian/clean file.
+  * Add Build-Depends-Package field to debian/libqt5websockets5.symbols.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 29 May 2019 18:30:02 +0300
 
