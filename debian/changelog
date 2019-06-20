@@ -18,7 +18,7 @@ qtwebsockets-opensource-src (5.12.3-1) experimental; urgency=medium
 
   [ Scarlett Moore ]
   * Update packaging to use doc-base as per policy 9.10.
- 
+
   [ Dmitry Shachnev ]
   * New upstream release.
   * Bump Qt build-dependencies to 5.12.3.
