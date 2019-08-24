@@ -42,8 +42,8 @@ Architecture: any
 Multi-Arch: same
 Section: libdevel
 Depends: libqt5websockets5 (= ${binary:Version}), qtbase5-dev, ${misc:Depends}
-Breaks: qtwebsockets5-doc-html (<< 5.12.4-1~)
-Replaces: qtwebsockets5-doc-html (<< 5.12.4-1~)
+Breaks: qtwebsockets5-doc-html (<< 5.12.4-2~)
+Replaces: qtwebsockets5-doc-html (<< 5.12.4-2~)
 Description: Qt 5 Web Sockets module - development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -85,8 +85,8 @@ Depends: qml-module-qtquick2,
          qml-module-qtwebsockets,
          ${misc:Depends},
          ${shlibs:Depends}
-Breaks: qtwebsockets5-doc-html (<< 5.12.4-1~)
-Replaces: qtwebsockets5-doc-html (<< 5.12.4-1~)
+Breaks: qtwebsockets5-doc-html (<< 5.12.4-2~)
+Replaces: qtwebsockets5-doc-html (<< 5.12.4-2~)
 Description: Examples for Qt 5 Web Sockets module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
