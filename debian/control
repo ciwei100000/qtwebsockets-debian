@@ -10,16 +10,16 @@ Uploaders: Sune Vuorela <debian@pusling.com>,
            Simon Quigley <tsimonq2@debian.org>
 Build-Depends: debhelper (>= 11),
                pkg-kde-tools,
-               qml-module-qtquick2 (>= 5.12.4~),
-               qml-module-qttest (>= 5.12.4~),
-               qtbase5-private-dev (>= 5.12.4+dfsg~),
-               qtdeclarative5-dev (>= 5.12.4~),
-               qtdeclarative5-private-dev (>= 5.12.4~),
+               qml-module-qtquick2 (>= 5.12.5~),
+               qml-module-qttest (>= 5.12.5~),
+               qtbase5-private-dev (>= 5.12.5+dfsg~),
+               qtdeclarative5-dev (>= 5.12.5~),
+               qtdeclarative5-private-dev (>= 5.12.5~),
                xauth,
                xvfb
 Build-Depends-Indep: doc-base,
-                     qtbase5-doc-html (>= 5.12.4+dfsg~) <!nodoc>,
-                     qttools5-dev-tools (>= 5.12.4~) <!nodoc>
+                     qtbase5-doc-html (>= 5.12.5+dfsg~) <!nodoc>,
+                     qttools5-dev-tools (>= 5.12.5~) <!nodoc>
 Standards-Version: 4.3.0
 Homepage: https://doc.qt.io/qt-5/qtwebsockets-index.html
 Vcs-Git: https://salsa.debian.org/qt-kde-team/qt/qtwebsockets.git
