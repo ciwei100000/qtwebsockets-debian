@@ -17,8 +17,7 @@ Build-Depends: debhelper (>= 11),
                qtdeclarative5-private-dev (>= 5.12.5~),
                xauth,
                xvfb
-Build-Depends-Indep: doc-base,
-                     qtbase5-doc-html (>= 5.12.5+dfsg~) <!nodoc>,
+Build-Depends-Indep: qtbase5-doc-html (>= 5.12.5+dfsg~) <!nodoc>,
                      qttools5-dev-tools (>= 5.12.5~) <!nodoc>
 Standards-Version: 4.3.0
 Homepage: https://doc.qt.io/qt-5/qtwebsockets-index.html
