@@ -4,6 +4,7 @@ qtwebsockets-opensource-src (5.12.5-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Bump Qt build-dependencies to 5.12.5.
   * Simplify debian/rules by using the debian/not-installed file.
+  * Make tests result fatal on armhf.
 
  -- Scarlett Moore <sgmoore@kde.org>  Fri, 09 Aug 2019 11:13:52 -0700
 
