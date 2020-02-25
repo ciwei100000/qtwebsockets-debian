@@ -1,10 +1,12 @@
-# SymbolsHelper-Confirmed: 5.12.2 amd64 armhf i386
+# SymbolsHelper-Confirmed: 5.14.1 amd64
 libQt5WebSockets.so.5 libqt5websockets5 #MINVER#
 * Build-Depends-Package: libqt5websockets5-dev
  Qt_5.0@Qt_5.0 5.6.0
  Qt_5.10@Qt_5.10 5.10.1
  Qt_5.11@Qt_5.11 5.11.0
  Qt_5.12@Qt_5.12 5.12.0
+ Qt_5.13@Qt_5.13 5.14.1
+ Qt_5.14@Qt_5.14 5.14.1
  Qt_5.1@Qt_5.1 5.6.0
  Qt_5.2@Qt_5.2 5.6.0
  Qt_5.3@Qt_5.3 5.6.0
@@ -72,6 +74,7 @@ libQt5WebSockets.so.5 libqt5websockets5 #MINVER#
  _ZN16QWebSocketServer15peerVerifyErrorERK9QSslError@Qt_5 5.6.0
  _ZN16QWebSocketServer15resumeAcceptingEv@Qt_5 5.6.0
  _ZN16QWebSocketServer16staticMetaObjectE@Qt_5 5.6.0
+ _ZN16QWebSocketServer19setHandshakeTimeoutEi@Qt_5 5.14.1
  (subst)_ZN16QWebSocketServer19setNativeDescriptorE{qptrdiff}@Qt_5 5.12.2
  _ZN16QWebSocketServer19setSocketDescriptorEi@Qt_5 5.6.0
  _ZN16QWebSocketServer19setSslConfigurationERK17QSslConfiguration@Qt_5 5.6.0
@@ -136,6 +139,7 @@ libQt5WebSockets.so.5 libqt5websockets5 #MINVER#
  _ZNK16QWebSocketServer16socketDescriptorEv@Qt_5 5.6.0
  _ZNK16QWebSocketServer16sslConfigurationEv@Qt_5 5.6.0
  _ZNK16QWebSocketServer17supportedVersionsEv@Qt_5 5.6.0
+ _ZNK16QWebSocketServer18handshakeTimeoutMSEv@Qt_5 5.14.1
  _ZNK16QWebSocketServer21hasPendingConnectionsEv@Qt_5 5.6.0
  _ZNK16QWebSocketServer21maxPendingConnectionsEv@Qt_5 5.6.0
  _ZNK16QWebSocketServer5errorEv@Qt_5 5.6.0

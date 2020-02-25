@@ -4,6 +4,7 @@ qtwebsockets-opensource-src (5.14.1-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Bump Qt build-dependencies to 5.14.1.
   * Update to debhelper compat level 12, use the new syntax.
+  * Add some new symbols to debian/libqt5websockets5.symbols.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 25 Feb 2020 15:28:34 +0300
 
