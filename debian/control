@@ -15,8 +15,8 @@ Build-Depends: debhelper-compat (= 12),
                qtbase5-private-dev (>= 5.14.2+dfsg~),
                qtdeclarative5-dev (>= 5.14.2+dfsg~),
                qtdeclarative5-private-dev (>= 5.14.2+dfsg~),
-               xauth,
-               xvfb
+               xauth <!nocheck>,
+               xvfb <!nocheck>
 Build-Depends-Indep: qtbase5-doc-html (>= 5.14.2+dfsg~) <!nodoc>,
                      qttools5-dev-tools (>= 5.14.2~) <!nodoc>
 Standards-Version: 4.5.0
