@@ -1,3 +1,10 @@
+qtwebsockets-opensource-src (5.15.1-1) UNRELEASED; urgency=medium
+
+  [ Dmitry Shachnev ]
+  * New upstream release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 08 Sep 2020 20:16:12 +0300
+
 qtwebsockets-opensource-src (5.14.2-2) unstable; urgency=medium
 
   * Upload to unstable.
