@@ -5,6 +5,7 @@ qtwebsockets-opensource-src (5.15.1-1) UNRELEASED; urgency=medium
   * Bump Qt build-dependencies to 5.15.1.
   * Update to debhelper compat level 13.
     - Drop dh_missing override, --fail-missing is now default behavior.
+    - Use ${DEB_HOST_MULTIARCH} substitution.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 08 Sep 2020 20:16:12 +0300
 
