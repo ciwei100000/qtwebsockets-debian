@@ -1,6 +1,5 @@
-qtwebsockets-opensource-src (5.15.1-1) UNRELEASED; urgency=medium
+qtwebsockets-opensource-src (5.15.1-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Bump Qt build-dependencies to 5.15.1.
   * Update to debhelper compat level 13.
@@ -8,7 +7,7 @@ qtwebsockets-opensource-src (5.15.1-1) UNRELEASED; urgency=medium
     - Use ${DEB_HOST_MULTIARCH} substitution.
   * Update debian/libqt5websockets5.symbols from the current build log.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 08 Sep 2020 20:16:12 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Thu, 10 Sep 2020 21:23:55 +0300
 
 qtwebsockets-opensource-src (5.14.2-2) unstable; urgency=medium
 
