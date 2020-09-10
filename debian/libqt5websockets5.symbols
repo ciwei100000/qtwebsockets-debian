@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.14.1 amd64
+# SymbolsHelper-Confirmed: 5.15.1 amd64
 libQt5WebSockets.so.5 libqt5websockets5 #MINVER#
 * Build-Depends-Package: libqt5websockets5-dev
  Qt_5.0@Qt_5.0 5.6.0
@@ -7,6 +7,7 @@ libQt5WebSockets.so.5 libqt5websockets5 #MINVER#
  Qt_5.12@Qt_5.12 5.12.0
  Qt_5.13@Qt_5.13 5.14.1
  Qt_5.14@Qt_5.14 5.14.1
+ Qt_5.15@Qt_5.15 5.15.1
  Qt_5.1@Qt_5.1 5.6.0
  Qt_5.2@Qt_5.2 5.6.0
  Qt_5.3@Qt_5.3 5.6.0
@@ -37,8 +38,14 @@ libQt5WebSockets.so.5 libqt5websockets5 #MINVER#
  _ZN10QWebSocket19readChannelFinishedEv@Qt_5 5.6.0
  _ZN10QWebSocket19setSslConfigurationERK17QSslConfiguration@Qt_5 5.6.0
  _ZN10QWebSocket19textMessageReceivedERK7QString@Qt_5 5.6.0
+ _ZN10QWebSocket20maxIncomingFrameSizeEv@Qt_5 5.15.1
+ _ZN10QWebSocket20maxOutgoingFrameSizeEv@Qt_5 5.15.1
+ _ZN10QWebSocket20setOutgoingFrameSizeEy@Qt_5 5.15.1
  _ZN10QWebSocket21binaryMessageReceivedERK10QByteArray@Qt_5 5.6.0
+ _ZN10QWebSocket22maxIncomingMessageSizeEv@Qt_5 5.15.1
  _ZN10QWebSocket27proxyAuthenticationRequiredERK13QNetworkProxyP14QAuthenticator@Qt_5 5.6.0
+ _ZN10QWebSocket30setMaxAllowedIncomingFrameSizeEy@Qt_5 5.15.1
+ _ZN10QWebSocket32setMaxAllowedIncomingMessageSizeEy@Qt_5 5.15.1
  _ZN10QWebSocket34preSharedKeyAuthenticationRequiredEP29QSslPreSharedKeyAuthenticator@Qt_5 5.9.0
  _ZN10QWebSocket4openERK15QNetworkRequest@Qt_5 5.6.0
  _ZN10QWebSocket4openERK4QUrl@Qt_5 5.6.0
@@ -115,6 +122,9 @@ libQt5WebSockets.so.5 libqt5websockets5 #MINVER#
  _ZNK10QWebSocket13maskGeneratorEv@Qt_5 5.6.0
  _ZNK10QWebSocket14readBufferSizeEv@Qt_5 5.6.0
  _ZNK10QWebSocket16sslConfigurationEv@Qt_5 5.6.0
+ _ZNK10QWebSocket17outgoingFrameSizeEv@Qt_5 5.15.1
+ _ZNK10QWebSocket27maxAllowedIncomingFrameSizeEv@Qt_5 5.15.1
+ _ZNK10QWebSocket29maxAllowedIncomingMessageSizeEv@Qt_5 5.15.1
  _ZNK10QWebSocket5errorEv@Qt_5 5.6.0
  _ZNK10QWebSocket5proxyEv@Qt_5 5.6.0
  _ZNK10QWebSocket5stateEv@Qt_5 5.6.0
