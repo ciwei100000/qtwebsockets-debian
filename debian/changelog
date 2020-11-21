@@ -3,6 +3,8 @@ qtwebsockets-opensource-src (5.15.2-1) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * New upstream release.
   * Bump Qt build-dependencies to 5.15.2.
+  * Build-depend only on the needed documentation tools, not on the large
+    qttools5-dev-tools package.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 20 Nov 2020 20:14:03 +0300
 
